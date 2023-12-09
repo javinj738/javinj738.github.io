@@ -1,18 +1,41 @@
 body {
-background: cadetblue;
-font-family: Arial, Helvetica, sans-serif;
+    background-color: #AFFF16;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 h1 {
-color: black;
-text-align: center;
+    color: maroon;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+h1:hover {
+    color: lightblue;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 .assign {
-displays: flex;
-padding: 10px;
-margin: 10px;
-background: white;
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+	display: block;
+    width: 20%;
+    box-shadow: 8px 8px black;
 }
-.assign inmg {
-width: 150px;
-padding: 10px;
+.assign img {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid midnightblue;
+}
+.assign img:hover {
+    width: 200px;
+    margin: 10px;
+    border: 2px dotted blue;
 }
